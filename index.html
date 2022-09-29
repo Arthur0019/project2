@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+  <head>
+      <meta charset="UTF-8">
+      <link rel="icon" type="imagem/png" href="logo2.png" />
+      <link rel="stylesheet" type="text/css" href="reset.css">
+      <link rel="stylesheet" type="text/css" href="home.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+      <title>Arthur Freitas - Home</title>
+  </head>
+<body>
+  <header id="header">
+    <h1>
+    <a href="index.html" class="logo"><img class="lg" src="logo2.png" style="height: 78px"><div class="titulo"> &lt Arthur Code &gt</div></a>
+  </h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </header>
+  
+
+
+<div class="banner-top">
+  <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
+  <div class="scroll">
+    <a href="#conteudo" class="c-article__btn-go-article" style="color: transparent;">
+    <span style="color: white;">SCROLL</span>
+      <svg viewBox="0 0 24 24">
+         <line class="st1" x1="12" y1="1" x2="12" y2="22.5" />
+         <line class="st1" x1="12.1" y1="22.4" x2="18.9" y2="15.6" />
+         <line class="st1" x1="11.9" y1="22.4" x2="5.1" y2="15.6" />
+        </svg>
+      </a>
+  </div>
+
+</div>
+
+  <div class="sec">
+    <main>
+    <div class="global">
+        <div id="conteudo">
+    
+    <h2 style="color:black;"><center>Conhecimentos</center></h2>
+
+        <div class="page-content">
+        
+
+            <div class="card">
+                <div class="content">
+                    <h3 class="title2">CSS</h3>
+                    <p class="copy">Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h3 class="title2">HTML</h3>
+                    <p class="copy">HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h3 class="title2">Javascript</h3>
+                    <p class="copy">JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h3 class="title2">Excel VBA Power BI</h3>
+                    <p class="copy">O Microsoft Excel é um editor de planilhas produzido pela Microsoft</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h3 class="title2">Python</h3>
+                    <p class="copy">Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h3 class="title2">PHP</h3>
+                    <p class="copy">PHP costuma ser mais usado para comunicação do lado do servidor (back-end).</p>
+                </div>
+            </div>
+
+          </div>
+
+
+
+        
+    </div>
+    </div>
+
+</div>
+
+<footer class="rodapé">
+  <center>
+  <div class="text_rod">
+          <article>
+              copyright &copy; 2022. Arthur Freitas. Todos os direitos reservados.
+          
+
+
+
+                  <ul class="wrapper">
+                      <li class="icon instagram">
+                        
+                          <span class="tooltip">Instagram</span>
+
+                          <a href="https://www.instagram.com/arthur.hfreitas/" target="_blank">
+                              <span>
+                                  <i class="fab fa-instagram"></i></span>
+                              </span>
+                          </a>
+                       
+                      </li>
+
+                      <li class="icon github">
+                          <span class="tooltip">Github</span>
+
+                          <a href="https://github.com/Arthur0019" target="_blank">
+                              <span>
+                                  <i class="fab fa-github"></i>
+                              </span>
+                          </a>
+                      </li>
+
+                      <li class="icon whatsapp">
+                          <span class="tooltip">Whatsapp</span>
+
+                          <a href="https://wa.me/+5511959854533" target="_blank">
+                              <span>
+                                  <i class="fab fa-whatsapp"></i>
+                              </span>
+                          </a>
+                      </li>
+
+                      <li class="icon linkedin">
+                          <span class="tooltip">Linkedin</span>
+                          
+                          <a href="https://www.linkedin.com/in/arthur-freitas-a6866a200/" target="_blank">
+                              <span>
+                                  <i class="fab fa-linkedin"></i>
+                              </span>
+                          </a>
+                      </li>
+                    </ul>
+          </article>
+      </div>
+  </center>
+</footer>    
+
+
+
+</body>
+
+<script>
+// function([string1, string2],target id,[color1,color2])    
+consoleText(['Olá Pessoal ! ', 'Me chamo Arthur', 'e esse é meu  site.', 'espero que gostem! <...>'], 'text',['tomato','rebeccapurple','lightblue', 'orange']);
+
+function consoleText(words, id, colors) {
+  if (colors === undefined) colors = ['#fff'];
+  var visible = true;
+  var con = document.getElementById('console');
+  var letterCount = 1;
+  var x = 1;
+  var waiting = false;
+  var target = document.getElementById(id)
+  target.setAttribute('style', 'color:' + colors[0])
+  window.setInterval(function() {
+
+    if (letterCount === 0 && waiting === false) {
+      waiting = true;
+      target.innerHTML = words[0].substring(0, letterCount)
+      window.setTimeout(function() {
+        var usedColor = colors.shift();
+        colors.push(usedColor);
+        var usedWord = words.shift();
+        words.push(usedWord);
+        x = 1;
+        target.setAttribute('style', 'color:' + colors[0])
+        letterCount += x;
+        waiting = false;
+      }, 1000)
+    } else if (letterCount === words[0].length + 1 && waiting === false) {
+      waiting = true;
+      window.setTimeout(function() {
+        x = -1;
+        letterCount += x;
+        waiting = false;
+      }, 1000)
+    } else if (waiting === false) {
+      target.innerHTML = words[0].substring(0, letterCount)
+      letterCount += x;
+    }
+  }, 120)
+  window.setInterval(function() {
+    if (visible === true) {
+      con.className = 'console-underscore hidden'
+      visible = false;
+
+    } else {
+      con.className = 'console-underscore'
+
+      visible = true;
+    }
+  }, 400)
+}
+
+
+
+
+</script>
+
+</html>
